@@ -1,5 +1,91 @@
 body {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-size: 16px; /* 1em */
     max-width: 1024px;
+    margin: 0px auto;
+    /* font-family: Arial, Helvetica, sans-serif; */
 }
+header{
+    background: #d1e3ee;
+}
+
+header nav{
+    background: #026dc6;
+    border-radius: 5px;
+    padding: 2px 0px;
+    margin: 0px auto;
+    width: 99%;
+}
+
+header nav form{
+    float: right;
+    margin-right: 20px;
+    margin-top: -35px;
+}
+
+header nav form input{
+    border-radius: 5px;
+}
+
+header nav form input[type = "submit"]{
+    background: green;
+    border: 1px solid green;
+    color: white;
+}
+
+header nav ul li{
+    /* border: 1px solid red; */
+    color: white;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#logo{
+    margin-top: -100px;
+}
+
+#seccion01{
+    margin-top: 15px;
+}
+
+#seccion01 article{
+    text-align: center;
+}
+
+#seccion01 article img{
+    border: 5px solid rgba(150,150,150,0.25);
+    width: 98%;
+}
+
+#seccion02{
+    margin-bottom: 50px;
+}
+
+#seccion02 article{
+    /* border: 1px solid blue */
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+}
+
+#seccion02 article input[type="submit"]{
+    background-color: white;
+    border-radius: 5px;
+    color: blue;
+    margin-left: 110px;
+    padding: 5px 8px;
+}
+
+.nito{
+    font-weight: bold;    
+}
+
+.otraSeccion{
+    font-size: 2.5em;
+}
+
+.unaSeccion{
+    font-size: 4.5em;
+}
+
+
