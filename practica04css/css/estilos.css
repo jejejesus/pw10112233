@@ -1,0 +1,135 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+footer section{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+footer section article{
+ width: 19%;
+}
+
+footer section article ul li{
+    left: -39px;
+    list-style: none;
+    position: relative;
+}
+
+header article:nth-child(2){
+    height: 10px;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+hr{
+    color: lightgray;
+}
+
+header hr, section article hr{
+    border-style: dashed;
+}
+
+nav{
+    margin-left: -40px;
+    margin-top: 30px;
+}
+
+section article, footer section article{
+    display: inline-block;
+    margin-top: 10px;
+    vertical-align: top;
+}
+
+#article01{
+    width: 53%;
+}
+
+#article02{
+    height: 600px;
+    width: 46%;
+}
+
+#img-5years{
+    position: relative;
+    top: -100px;
+    width: 150px;
+}
+
+#img-buy{
+    position: relative;
+    top: 45px;
+    width: 50px;
+}
+
+#buy-gotoshop{
+    height: 120px;
+    left: 580px;
+    position: relative;
+    top: -160px;
+    width: 260px;
+}
+
+#dashed{
+    border-style: dashed;
+}
+
+#img-gotoshop{
+    left: -5px;
+    position: relative;
+    width: 200px;
+}
+
+#logo-first-bike{
+    height: 45px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+#socials{
+    left:910px;
+    position: relative;
+    top: -125px;
+    width: 110px;
+}
+
+#socials img{
+    height: 30px;
+}
+
+#sns-copy img{
+    vertical-align: middle;
+}
+
+#videos{
+    margin-top: 20px;
+    width: 100%;
+}
+
+#videos img{
+    margin-left: 20px;
+    width: 230px;
+}
+
+.letra-gris{
+ color: #353535;
+}
+
+.letra-verde{
+    color: #74F43C;
+}
+
+.nito{
+    font-weight: bold;
+}
+
+.tam-grande{
+    font-size: 4em;
+}

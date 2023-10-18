@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Práctica04 </title>
+    <title>Práctica04</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
 <header>
     <article>
-        <img src="img/first_bike.png" alt="Logo FirstBike" id="logo/firsti-bike">
+        <img src="img/first_bike.png" alt="Logo FirstBike" id="logo-first-bike">
         <nav>
-            <ul>
+            <ul class="nito">
                 <li>Home</li>
                 <li>About</li>
                 <li>Bikes</li>
@@ -23,81 +24,85 @@
         </nav>
     </article>
     <article>
-        <div>
+        <div id="socials">
            <img src="img/logo_rojo.png" alt="Chinese(Honk Kong)" id="img-hk">
             <img src="img/bandera.png" alt="English(UK)" id="img-uk">
             <img src="img/mundo.png" alt="Global English" id="img-global"> 
         </div>
-        <div>
-            <img src="img/go_to_shop.png" alt="Go to shop" id="img-gotoshop"> 
-        </div>
-        <div>
-            <img src="img/buy.png" alt="Buy" id="img-buy">    
+        <div id="buy-gotoshop">
+            <img src="img/buy.png" alt="Buy" id="img-buy">   
+            <img src="img/go_to_shop.png" alt="Go to shop" id="img-gotoshop">            
         </div>
     </article>
     <hr>
 </header>
 <section>
-    <article>
+    <article id="article01">
         <span class="tam-grande nito">FIRST SENSE OF</span><br>
         <span class="tam-grande nito letra-verde">BALANCE</span>
         <hr>
-        The perfect training bike for your child from 2 to 5 years old and the first choice for parents worldwide. FirstBIKE supports the development of a child's balance and provides a no-stress method of learning to ride a bike.
-        <div>
+        <span class="letra-gris" id="texto-principal">
+            The perfect training bike for your child from 2 to 5 years old and the first choice for parents worldwide. FirstBIKE supports the development of a child's balance and provides a no-stress method of learning to ride a bike.
+        </span>
+        <div id="videos">
             <img src="img/video01.png" alt="Video 1">
             <img src="img/video02.png" alt="Video 2">
         </div>
     </article>
-    <article>
-        <img src="img/bike.jpg" alt="Big bike">
-        <img src="img/5years.png" alt="5 Years Warranty">
+    <article id="article02">
+        <img src="img/bike.jpg" alt="Big bike" id="img-bike">
+        <img src="img/5years.png" alt="5 Years Warranty" id="img-5years">
     </article>
 </section>
 <footer>
-    <img src="img/logos_footer.png" alt="SNS">
-    <span class="letra-gris">&copy; 2014 Miles Year Ltd, Official Distributor of FirstBIKE in  Hong Kong</span>
-    <section>
-        <span class="letra-gris">ABOUT US</span>
-        <hr>
-        <ul class="letra-gris">
-            <li>About FirsBIKE</li>
-            <li>About Miles Year Ltd.</li>
-            <li>Careers</li>
-            <li>Contact Us</li>
-        </ul>
+    <section id="sns-copy">
+        <img src="img/logos_footer.png" alt="SNS">
+        <span class="letra-gris">&copy; 2014 Miles Year Ltd, Official Distributor of FirstBIKE in  Hong Kong</span>
     </section>
     <section>
-        <span class="letra-gris">CUSTOMER INFO</span>
-        <hr>
-        <ul class="letra-gris">
-            <li>Customer Service</li>
-            <li>Return & Exchanges</li>
-            <li>Shipping</li>
-            <li>Find a Store</li>
-        </ul>
-    </section>
-    <section>
-        <span class="letra-gris">OUR POLICIES</span>
-        <hr>
-        <ul class="letra-gris">
-            <li>Privacy Policy</li>
-            <li>Terms and Conditions</li>
-        </ul>
-    </section>
-    <section>
-        <span class="letra-gris">ACTIVITIES</span>
-        <hr>
-        <ul class="letra-gris">
-            <li>Latest News</li>
-            <li>Racing/Competition</li>
-        </ul>
-    </section>
-    <section>
-        <span class="letra-gris">ACTIVITIES</span>
-        <hr>
-        <span class="letra-gris">
-            Keep in touch with us to find out exclusively special for you
-        </span>
+        <article>
+            <span class="letra-gris">ABOUT US</span>
+            <hr>
+            <ul class="letra-gris">
+                <li>About FirsBIKE</li>
+                <li>About Miles Year Ltd.</li>
+                <li>Careers</li>
+                <li>Contact Us</li>
+            </ul>
+        </article>
+        <article>
+            <span class="letra-gris">CUSTOMER INFO</span>
+            <hr>
+            <ul class="letra-gris">
+                <li>Customer Service</li>
+                <li>Return & Exchanges</li>
+                <li>Shipping</li>
+                <li>Find a Store</li>
+            </ul>
+        </article>
+        <article>
+            <span class="letra-gris">OUR POLICIES</span>
+            <hr>
+            <ul class="letra-gris">
+                <li>Privacy Policy</li>
+                <li>Terms and Conditions</li>
+            </ul>
+        </article>
+        <article>
+            <span class="letra-gris">ACTIVITIES</span>
+            <hr>
+            <ul class="letra-gris">
+                <li>Latest News</li>
+                <li>Racing/Competition</li>
+            </ul>
+        </article>
+        <article>
+            <span class="letra-gris">ACTIVITIES</span>
+            <hr>
+            <span class="letra-gris">
+                Keep in touch with us to find out exclusively special for you
+            </span>
+        </article>
     </section>
 </footer>
 </body>
