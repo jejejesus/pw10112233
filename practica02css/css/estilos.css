@@ -42,7 +42,7 @@ header nav ul li{
 }
 
 #copyright{
-    margin-left: 250px;
+    margin-left: 260px;
 }
 
 #facebook{
@@ -86,6 +86,16 @@ header nav ul li{
     width: 30%;
 }
 
+#seccion01art02 ul{
+    list-style: none;
+}
+
+#seccion01art02 ul li:before{
+    color: #FF0099;
+    content: "• ";
+}
+
+
 #seccion03art04{
     padding-top: 50px;
 }
@@ -113,7 +123,7 @@ header nav ul li{
     vertical-align: middle;
 }
 
-#tercerSeccion article input{
+#tercerSeccion article form input{
     border-radius: 5px;
 }
 
