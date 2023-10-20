@@ -1,0 +1,98 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+header nav{
+    background: #EFEFEF;
+    margin-top: -20px;
+}
+
+header nav ul{
+    margin-left: 750px;
+    width: 300px;
+    padding: 8px 0px;
+}
+
+header nav ul li{
+    display: inline-block;
+}
+
+header section{
+    padding: 5px 0px;
+}
+
+header section img{
+    height: 70px;
+    margin-left: 443px;
+}
+
+img[alt="Barra"]{
+    width: 98%;
+}
+
+section{
+    vertical-align: top;
+}
+
+section article{
+    display: inline-block;
+    border: 1px solid red;
+}
+
+section article:nth-child(1){
+    width: 29%;
+}
+
+section article:nth-child(2){
+    width: 70%;
+}
+
+#ajustes{
+    height: 31px;
+}
+
+#div-progress{
+    padding: 5px;
+}
+
+#ul-example{
+    padding: 4px;
+}
+
+#mensajes{
+    height: 31px;
+}
+
+#notificaciones{
+    height: 38px;
+}
+
+.div-logo{
+    height: 40px;
+    padding-top: 2px;
+}
+
+.div-panel{
+    margin: 5px 5px 10px 0px;
+}
+
+.fondo-azulc{
+    background: #275E90;
+}
+
+.fondo-azulo{
+    background: #204A72;
+}
+
+.letra-blanca{
+    color: white;
+}
+
+.logo-panel{
+    height: 40px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
